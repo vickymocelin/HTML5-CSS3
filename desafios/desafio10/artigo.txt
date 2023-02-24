@@ -1,0 +1,42 @@
+                    NO HTML
+
+O esqueleto básico de um site: header, main, footer.
+
+HEADER: Geralmente tem o título <h1> , talvez subtitulo com <p> e um <nav>, ou seja, menu de navegação com links <a>
+MAIN: É a div (espaço do html) que comporta o corpo do site. No caso do Desafio 10, trata-se de um artigo, então coloca-se, para fim de definição, a tag <article> 
+Dentro desse artigo ficam h1, h2. parágrafos, imagens, videos etc... 
+FOOTER: É o rodapé, pode conter um <p> ou links <a> etc.
+
+
+
+
+NO CSS
+
+Básico: o charset; o @import url com link de fonte ou @font-face com download da fonte que precisa estar dentro de uma pasta no arquivo do site. 
+
+:root { } =dentro dele da pra add variaveis que facilitam MUITO. seguir exemplo do desafio. 
+
+configura o body padrão e depois começa a adicionar, seguindo uma ordem de organização (pra facilitar) coerente. exemplo:
+
+
+header {
+    e suas config.
+}
+main {
+    e suas config.
+}
+footer {
+    e suas config. 
+}
+
+e abaixo de cada uma dessas divs, ir colocando as variações. Por exemplo, digamos que dentro de uma <header> temos um <h1>, um <p> e um <nav>. iremos então adicionar eles em ordem, abaixo do header, por ex:
+header > h1 {
+    e suas config.
+}
+header > p {
+    e suas config.
+}
+
+PS: Pra por movimento de mouse, add :hover
+
+Ou seja, na main, possivelmente teremos os ramos= main h1, main h2, main img, main p, main a:hover etc...

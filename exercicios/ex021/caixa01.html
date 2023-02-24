@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        body {
+            background-color: #fff4f4;
+        }
+        h1 {
+            text-align: left;
+            background-color: #fbd3d2; 
+            color: #F6839C;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: #CB807D;
+            /*  shorthand = 
+            border: 10px solid #cb807d; 
+            ou seja, segue a ordem do width, style e color*/
+
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+
+            /* shorthand = em direção horária
+            ex: 
+            padding: 10px 10px 10px 10px (e nesse caso, de serem todas iguais, poderia colocar apenas uma vez o 10px)
+            * se voce colocar 2 valores, irão corresponder aos 2 de cima e 2 de baixo, ou seja, se colocar padding: 10px 20px , top e bottom serão 10px e right e left serão 20px
+             */
+
+            margin-top: 20px;
+            margin-right: 40px;
+            margin-bottom: 20px;
+            margin-left: 40px;
+
+            /* shorthand=
+            margin: 20px auto 40px auto*/
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: #A9B18F;
+        }
+        h2 {
+            color: #CB807D;
+            background-color: #fbd8d8;
+            height: 200px;
+            width: 200px;
+            margin: auto; /* pra deixar a caixa centralizada */
+            border-width: 5px;
+            border-color: #F6839C;
+            border-style: dotted;
+        }
+        a {
+            border-width: 3px;
+            border-style: solid; /* tem opções pontilhadas, dupla, etc... */
+            border-color: #A9B18F;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-lever, mas os <a href="#">links são exemplos de caixas inline-level</a>.</p>
+    <h2>Exemplos de margem</h2>
+</body>
+</html>

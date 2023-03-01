@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             background-color: black; /* sempre coloque fundo preto msm q tenha imagem */
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             height: 98vh;
             background-size: cover; /* contain, 100% sao outras opções*/
+            background-attachment: fixed;
         }
         main {
             background-color: rgba(255, 255, 255, 0.628);
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid rgb(1, 1, 7);

@@ -1,0 +1,12 @@
+ordem do que foi feito e algumas explicações
+
+1= organizei as pastas e criei os arquivos html e css
+2= organizei o html, header, main e footer. Na main eu organizei sections e parágrafos
+3= no css defini background color da header e do footer e tambem o hover dos links e cor das letras.
+4= coloquei classes nas sections pra organizar quais terão fundo normal e quais terão imagens.
+5= adicionei configuações basicas do css, como o charset e tb uma definição universal das margens e paddings. ex:
+* {
+    margin: 0px;
+    padding: 0px;
+}
+6=
